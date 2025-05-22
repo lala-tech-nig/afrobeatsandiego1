@@ -16,17 +16,29 @@ import { useState } from "react";
 export function NavbarDemo() {
   const navItems = [
     {
-      name: "Features",
-      link: "#features",
+      name: "Home",
+      link: "#Home",
     },
     {
-      name: "Pricing",
-      link: "#pricing",
+      name: "Playlist",
+      link: "#Playlis",
     },
     {
-      name: "Contact",
-      link: "#contact",
+      name: "Events",
+      link: "#Events",
     },
+    {
+        name: "Blog",
+        link: "#Blog",
+      },
+    {
+      name: "Shop",
+      link: "#Shop",
+    },
+    {
+        name: "Contact",
+        link: "#Contact",
+      },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
